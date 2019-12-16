@@ -33,7 +33,7 @@ steps:
 # Build app
   inputs:
     command: 'custom'
-    customCommand: 'npm build'
+    customCommand: 'run build'
   displayName: 'Build app'
 
 - task: PublishPipelineArtifact@1
